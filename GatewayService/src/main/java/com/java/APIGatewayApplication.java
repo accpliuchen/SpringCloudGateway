@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 //https://www.jianshu.com/p/b23ff932746b
-
+//https://www.javainuse.com/spring/cloud-filter
 @SpringBootApplication
 public class APIGatewayApplication {
 
