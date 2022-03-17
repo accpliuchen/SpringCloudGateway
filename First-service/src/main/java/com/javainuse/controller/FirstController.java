@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 public class FirstController {
 
     @GetMapping("/message")
-    public String test() {
+    public String test(@RequestHeader("first-request") String header) {
+        System.out.println(header);
         return "Hello JavaInUse Called in First Service";
     }
 }
